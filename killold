@@ -1,0 +1,2 @@
+#kill old wk
+*/5 * * * *     root    killall --older-than 5m wkhtmltopdf
